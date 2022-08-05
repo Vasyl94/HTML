@@ -4,22 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbershop</title>
-</head>
-<body>
-    <header>
-  <a href="./index.html">  
- <img src="./img/logo.svg"
-  alt="Barbershop logo"
-  width="69" 
-  />
-</a> 
-<ul>
-<li><a href="https:youtube.com">youtube</a></li>
-<li><a href="https:instagram.com">instagram</a></li>
-</ul>
-
-
-
 </header>
 <main></main> 
 <footer>
@@ -28,3 +12,71 @@
 </body>
 
 </html>
+<h1></h1>
+<div class="file-browser-loading-page-container" data-preferred-theme="light">
+  <!--  Minimal theming logic, duplicated from web/js/figma_app/hooks/themes.ts -->
+<script nonce="">
+  let theme = window.localStorage.getItem('global-debug-theme-preference')
+  if (!theme || theme === 'legacy') {
+    theme = 'light'
+  }
+  document.querySelector(".file-browser-loading-page-container").dataset.preferredTheme = theme
+</script>
+
+
+  <div id="filebrowser-loading-page" class="hidden fadeOut">
+    <div class="navbar"></div>
+
+    <!-- HAX: this sidebar is cloned and used outside of this page -->
+    <div id="filebrowser-loading-sidebar" class="filebrowser-loading-sidebar">
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="divider"></div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="divider"></div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+      <div class="row">
+        <div class="circle"></div>
+      </div>
+    </div>
+
+    <div class="page">
+
+
+      <div class="columns">
+
+
+        <div id="loading-content-pane" class="content filebrowser-loading-page">
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div id="filebrowser-loading-progress-bar"></div>
+  </div>
+</div>
