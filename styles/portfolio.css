@@ -71,84 +71,11 @@ color: #757575;
  color: var(--accent-color);
 }
 .decision{ background-color: #2F303A;}
-.title { 
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-     color: #FFFFFF; 
-   }
 
-.model-open-btn{
-font-family: 'Roboto', sans-serif; 
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-text-align: center;
-letter-spacing: 0.06em;
-cursor: pointer;
-color: #FFFFFF;
-}
-   .model-open-btn:hover
-   .model-open-btn:focus
-   {background-color: #2196F3;
-    color: #FFFFFF;}
 
-   .text-main 
-   {background-color: #F5F5F5;}
+.foto {
     
-   .text {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.875;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-
-   }
-
-   .menu-text {
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.555;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #757575;
- }
-
-.technologies-number{
-font-family: 'Roboto',sans-serif;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-   }
-   
-   .team{
- font-family: 'Roboto',sans-serif;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-   }
-
-
+}
 .name {
 font-family:'Roboto',sans-serif;
 font-weight: 500;
@@ -160,7 +87,6 @@ letter-spacing: 0.03em;
 
 color: #212121;
 }
-
 .professio{
 font-family:'Roboto',sans-serif;
 font-weight: 400;
@@ -171,6 +97,26 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #757575;
+}
+.text {
+    background-color:#F5F5F5;
+}
+.spheres{
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.dodatok{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+
 }
 .logo-2{ background-color: #2F303A;}
 .logo-header-2{
