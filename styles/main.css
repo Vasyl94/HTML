@@ -4,7 +4,7 @@
     --accent-color: #2196F3;
 }
 body{font-family: 'Raleway' , sans-serif;
-    font-size: 26px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.19;
     letter-spacing: 0.03em
@@ -58,9 +58,7 @@ color: #757575;
 
 
 }
-.contact-mail-numbre{
-    color: #2196F3;
-}
+
 
 .contact-mail-numbre:hover,
 .contact-mail-numbre:focus,
@@ -83,27 +81,21 @@ color: #757575;
    }
 
 .model-open-btn{
-font-family: 'Roboto', sans-serif; 
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-text-align: center;
-letter-spacing: 0.06em;
-cursor: pointer;
-color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
 }
    .model-open-btn:hover
    .model-open-btn:focus
-   {background-color: #2196F3;
+   {background: var(--primary-font);
     color: #FFFFFF;}
 
    .text-main 
    {background-color: #F5F5F5;}
     
    .text {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
+font-family: var(--primary-font);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.875;
@@ -115,7 +107,7 @@ color: #212121;
    }
 
    .menu-text {
-font-family: 'Roboto', sans-serif;
+font-family: var(--primary-font);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.555;
@@ -127,7 +119,7 @@ color: #757575;
  }
 
 .technologies-number{
-font-family: 'Roboto',sans-serif;
+font-family: var(--primary-font);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -138,7 +130,7 @@ color: #212121;
    }
    
    .team{
- font-family: 'Roboto',sans-serif;
+ font-family: var(--primary-font);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -150,7 +142,7 @@ color: #212121;
 
 
 .name {
-font-family:'Roboto',sans-serif;
+font-family:var(--primary-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -162,7 +154,7 @@ color: #212121;
 }
 
 .professio{
-font-family:'Roboto',sans-serif;
+font-family:var(--primary-font);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
@@ -177,7 +169,7 @@ color: #757575;
     color: #FFFFFF;
 }
 .location {
-    font-family: 'Roboto',sans-serif;
+    font-family: var(--primary-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -188,7 +180,7 @@ color: #757575;
      
 }
 .contact-mail{
-font-family: 'Roboto',sans-serif;
+font-family: var(--primary-font);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -199,7 +191,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .contact-phone{
-    font-family: 'Roboto',sans-serif;
+    font-family: var(--primary-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71; 
