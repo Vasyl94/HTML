@@ -36,7 +36,7 @@ ol{
 .list { 
     list-style: none;}
 
-.page-header{
+.page1{
     background-color: #FFFFFF;
 }
 .logo {
@@ -46,6 +46,13 @@ ol{
     color: #212121;
     
 
+}
+.container{
+    width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right:15px;
 }
 
 .index.html{
@@ -123,6 +130,10 @@ border-radius: 4px;
 .but:focus{
     background-color: var(--accent-color);
 }
+.text{
+    background-color:#F5F5F5 ;
+}
+
 .spheres{
 font-family:var(--primary-font);
 font-weight: 700;
@@ -140,7 +151,7 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
-.logo-2{ background-color: #2F303A;}
+.logo2{ background-color: #2F303A;}
 .logo-header-2{
     color: #FFFFFF;
 }
