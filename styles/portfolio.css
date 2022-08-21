@@ -40,6 +40,16 @@ ol{
     background-color: #FFFFFF;
 }
 .logo {
+ font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+letter-spacing: 0.03em;
+
+color: var(--accent-color);
+
  color:var(--accent-color);}
 
 .logo-header {
@@ -129,6 +139,7 @@ border-radius: 4px;
 .but:hover,
 .but:focus{
     background-color: var(--accent-color);
+    color:#FFFFFF;
 }
 .text{
     background-color:#F5F5F5 ;
@@ -151,12 +162,25 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
-.logo2{ background-color: #2F303A;}
+.logo2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--accent-color);
+     
+    background-color: #2F303A;}
 .logo-header-2{
     color: #FFFFFF;
 }
 .location {
     font-family:var(--primary-font);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -168,6 +192,7 @@ color: #757575;
 }
 .contact-mail{
 font-family: var(--primary-font);
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -179,6 +204,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 .contact-phone{
     font-family:var(--primary-font);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71; 
