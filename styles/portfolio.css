@@ -3,11 +3,8 @@
     --second-font: 'Raleway' , sans-serif ;
     --accent-color: #2196F3;
 }
-body{font-family: 'Raleway' , sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.19;
-    letter-spacing: 0.03em
+body{font-family: 'Roboto', sans-serif ;
+    color: #212121;
     
 }
 img { display: block;}
@@ -40,7 +37,7 @@ ol{
     background-color: #FFFFFF;
 }
 .logo {
- font-family: 'Raleway';
+ font-family: 'Raleway' , sans-serif ;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -74,12 +71,10 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
 }
 .contact-mail-numbre,
 .contact-phone-numbre
 {
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -91,7 +86,6 @@ color: #757575;
 
 }
 
-
 .contact-mail-numbre:hover,
 .contact-mail-numbre:focus,
 .contact-phone-numbre:hover,
@@ -102,32 +96,6 @@ color: #757575;
 }
 .decision{ background-color: #2F303A;}
 
-
-.foto {
-    
-}
-.name {
-font-family:var(--primary-font);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-}
-.professio{
-font-family:var(--primary-font);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.18;
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #757575;
-}
 
 .number{
     background-color:#F5F5F5;
@@ -146,15 +114,13 @@ border-radius: 4px;
 }
 
 .spheres{
-font-family:var(--primary-font);
 font-weight: 700;
 font-size: 18px;
 line-height: 2.00;
 letter-spacing: 0.06em;
-color: #212121;
+
 }
 .dodatok{
-font-family: var(--primary-font);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
@@ -162,7 +128,7 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
-.logo2{
+.logo-2{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -179,7 +145,7 @@ color: #757575;
     color: #FFFFFF;
 }
 .location {
-    font-family:var(--primary-font);
+    font-family: 'Roboto', sans-serif ;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -191,7 +157,7 @@ color: #757575;
      
 }
 .contact-mail{
-font-family: var(--primary-font);
+ font-family: 'Roboto', sans-serif ;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -202,8 +168,8 @@ letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 }
-.contact-phone{
-    font-family:var(--primary-font);
+.contact-phone{ 
+    font-family: 'Roboto', sans-serif ;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
