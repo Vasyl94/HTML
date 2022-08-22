@@ -2,8 +2,17 @@
     --primary-font:'Roboto', sans-serif ;
     --second-font: 'Raleway' , sans-serif ;
     --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --primary-gray-color: #212121;
+    --primary-link-color: #2F303A;
+    --primary-text-color: #757575;
+    --primary-fon-color: #F5F5F5;
+    --primary-fon2-color:#F5F4FA;
+    --primary-bottom-color: rgba(255, 255, 255, 0.6);
 }
 body{font-family: 'Roboto', sans-serif ;
+    font-size: 14px;
+    font-style: normal;
     color: #757575;
     }
 img { display: block;}
@@ -33,7 +42,7 @@ ol{
     list-style: none;}
 
 .page1{
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
 }
 .logo {
  font-family: 'Raleway' , sans-serif ;
@@ -49,7 +58,7 @@ color: var(--accent-color);
  color:var(--accent-color);}
 
 .logo-header {
-    color: #212121;
+    color: var(--primary-gray-color);
     
 
 }
@@ -64,23 +73,23 @@ color: var(--accent-color);
 .index.html{
 color: var(--accent-color);
 }
-
+.menu-link-1{
+    color: var(--accent-color);
+}
 .menu-link{
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--primary-gray-color);
 }
 .contact-mail-numbre,
 .contact-phone-numbre
 {
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color:var(--primary-text-color);
 
 }
 
@@ -93,23 +102,33 @@ color: #757575;
 .menu-link :focus{
  color: var(--accent-color);
 }
-.decision{ background-color: #2F303A;}
+.decision{ background-color: var(--primary-link-color);}
 
 
 .number{
-background-color:#F5F5F5;
+background-color:var(--primary-fon-color);
 }
 .but{
-background: #F5F4FA;
+font-weight: 500;
+font-size: 1.625;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-gray-color);
+
+background: var(--primary-fon2-color);
 border-radius: 4px;
 }
 .but:hover,
 .but:focus{
 background-color: var(--accent-color);
-color:#FFFFFF;
+color:var(--primary-white-color);
 }
 .text{
-    background-color:#F5F5F5 ;
+    background-color:var(--primary-fon-color) ;
 }
 
 .spheres{
@@ -117,7 +136,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2.00;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--primary-gray-color);
 }
 .dodatok{
 font-weight: 400;
@@ -128,12 +147,11 @@ letter-spacing: 0.03em;
 
 }
 .logo-2{
-    background-color: #2F303A;
+    background-color:var(--primary-link-color);
 
 }
 .logo{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -145,36 +163,25 @@ letter-spacing: 0.03em;
      
     }
 .logo-header-2{
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 .location {
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    
-    letter-spacing: 0.03em;
-    
-    color: #FFFFFF;
+     letter-spacing: 0.03em;
+    color: var(--primary-white-color);
      
 }
 .contact-mail{
-font-style: normal;
 font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-
-
 letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+color: var(--primary-bottom-color);
 }
 .contact-phone{ 
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71; 
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-bottom-color);
 
 }

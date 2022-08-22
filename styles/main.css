@@ -2,9 +2,18 @@
     --primary-font:'Roboto', sans-serif ;
     --second-font: 'Raleway' , sans-serif ;
     --accent-color: #2196F3;
+    --primary-whyte-color: #FFFFFF;
+    --primary-gray-color: #212121;
+    --primary-link-color: #2F303A;
+    --primary-text-color: #757575;
+    --primary-fon-color: #F5F5F5;
+    --primary-fon2-color:#F5F4FA;
+    --primary-bottom-color: rgba(255, 255, 255, 0.6);
+
 }
 body{font-family: 'Roboto' , sans-serif;
     font-size: 14px;
+    font-weight: 700;
     color: #212121;
     
 }
@@ -51,24 +60,27 @@ ol{
     color: var(--accent-color);}
 
 .logo-header {
-    color: #212121;
+    color: var(--primary-gray-color);
 }
 .page-heder-container {
 display: flex;
 }
 .page-heder{
-    background-color: #FFFFFF;
+    background-color: var(--primary-whyte-color);
 }
 
 .index.html{
 color: var(--accent-color);
 }
+.menu-link-1
+{color: var(--accent-color);
 
+}
 .menu-link{  
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--primary-gray-color);
 }
 .contact-mail-numbre,
 .contact-phone-numbre
@@ -78,7 +90,7 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #757575;
+color: var(--primary-text-color);
 }
 
 
@@ -92,10 +104,10 @@ color: #757575;
 }
 
 .text1{
-    background-color: #2F303A;
+    background-color: var(--primary-link-color);
 }
 .decision{
-  background-color: #2F303A;  
+  background-color: var(--primary-link-color);  
 }
 .title { 
     font-weight: 900;
@@ -104,29 +116,42 @@ color: #757575;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color:var(--primary-whyte-color) ;
    }
 
+
 .model-open-btn{
+font-style: normal;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--primary-whyte-color);
+    cursor: pointer;
+    
 }
    .model-open-btn:hover
    .model-open-btn:focus
    {background: var(--primary-font);
-    color: #FFFFFF;}
+    color: var(--primary-whyte-color);}
 
    .text-main 
-   {background-color: #F5F5F5;}
+   {background-color: var(--primary-fon-color);}
     
    .skills1{
-   background-color: #F5F5F5;
+   background-color: var(--primary-fon-color);
    }
    .text {
 font-size: 14px;
-font-weight: 700;
 line-height: 1.875;
 text-transform: uppercase;
  }
@@ -135,11 +160,10 @@ text-transform: uppercase;
 font-family: var(--primary-font);
 
 line-height: 1.555;
-color: #757575;
+color: var(--primary-text-color);
  }
 
 .technologies-numbr{
-    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -149,10 +173,9 @@ color: #757575;
    
    .team1
    {
-    background-color: #F5F4FA;
+    background-color: var(--primary-fon2-color);
    }
    .team{
-font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -172,32 +195,28 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-color: #757575;
+color: var(--primary-text-color);
 }
 
 .logo2{ 
     background-color: #2F303A;}
 .logo-header-2{
-    color: #FFFFFF;
+    color: var(--primary-whyte-color);
 }
 
 .location {
-    font-style: normal;
     font-weight: 400;
     line-height: 1.71;
-    color: #FFFFFF;
-     
-}
+    color: var(--primary-whyte-color);}
+    
 .contact-mail{
-font-style: normal;
 font-weight: 400;
 line-height: 1.71;
-color: rgba(255, 255, 255, 0.6);
+color: var(--primary-bottom-color);
 }
 .contact-phone{
-    font-style: normal;
     font-weight: 400;
     line-height: 1.71; 
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-bottom-color);
 
 }
