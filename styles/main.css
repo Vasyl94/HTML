@@ -12,9 +12,9 @@
 
 }
 body{ font-family:var(--primary-font)
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
 }
 img { display: block;}
 
@@ -49,6 +49,7 @@ ol{
 .list { 
     list-style: none;}
 
+            /*----Header---*/
 
 .logo {
     font-family: 'Raleway';
@@ -102,6 +103,7 @@ color: var(--primary-text-color);
 .menu-link :focus{
  color: var(--accent-color);
 }
+               /*---Text----*/
 
 .text1{
     background-color: var(--primary-link-color);
@@ -145,7 +147,8 @@ color: var(--primary-whyte-color);
 
    .text-main 
    {background-color: var(--primary-fon-color);}
-    
+              /*---SKILLST---*/
+
    .skills1{
    background-color: var(--primary-fon-color);
    }
@@ -159,6 +162,7 @@ text-transform: uppercase;
     line-height: 1.71;
     color: var(--primary-text-color);
  }
+           /*----TECHNOLOGIES----*/
 
 .technologies-numbr{
     font-size: 36px;
@@ -171,6 +175,8 @@ text-transform: uppercase;
    {
     background-color: var(--primary-fon2-color);
    }
+               /*---TEAM---*/
+
    .team{
 font-size: 36px;
 line-height: 1.16;
@@ -193,6 +199,7 @@ line-height: 1.18;
 text-align: center;
 color: var(--primary-text-color);
 }
+           /*---FOOTER---*/
 
 .logo2{ 
     background-color: #2F303A;}

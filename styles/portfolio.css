@@ -40,6 +40,7 @@ ol{
 .list { 
     list-style: none;}
 
+     /*----Header---*/
 .page1{
     background-color: var(--primary-white-color);
 }
@@ -67,7 +68,7 @@ color: var(--accent-color);
     padding-left: 15px;
     padding-right:15px;
 }
-
+              
 .index.html{
 color: var(--accent-color);
 }
@@ -125,6 +126,7 @@ border-radius: 4px;
 background-color: var(--accent-color);
 color:var(--primary-white-color);
 }
+                 /*---Text----*/
 .text{
     background-color:var(--primary-fon-color) ;
 }
@@ -144,6 +146,7 @@ letter-spacing: 0.03em;
 
 
 }
+            /*---FOOTER---*/
 .logo-2{
     background-color:var(--primary-link-color);
 
