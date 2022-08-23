@@ -118,6 +118,7 @@ color: var(--primary-gray-color);
 
 background: var(--primary-fon2-color);
 border-radius: 4px;
+
 }
 .but:hover,
 .but:focus{
