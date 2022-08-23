@@ -11,10 +11,10 @@
     --primary-bottom-color: rgba(255, 255, 255, 0.6);
 
 }
-body{ font-family:var(--primary-font)
+body{ font-family:var(--primary-font);
       font-size: 14px;
-      font-weight: 700;
-      letter-spacing: 0.03em;
+      color: var(--primary-text-color);
+      background-color: var(--primary-whyte-color);
 }
 img { display: block;}
 
@@ -22,7 +22,7 @@ button{ cursor: pointer;
     font-family: inherit; 
 }
 
-h1,
+/*h1,
 h2,
 h3,
 p{
@@ -41,7 +41,7 @@ ol{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-}
+}*/
 
 .link {
     text-decoration: none;
@@ -73,7 +73,7 @@ color: var(--accent-color);
 }
 .menu{
 }
-.menu-link-1
+.link.current
 {color: var(--accent-color);
 
 }
@@ -105,7 +105,7 @@ color: var(--primary-text-color);
 }
                /*---Text----*/
 
-.text1{
+.text-number{
     background-color: var(--primary-link-color);
 }
 .decision{
@@ -123,13 +123,11 @@ color: var(--primary-text-color);
 
 
 .model-open-btn{
+font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-/* identical to box height, or 188% */
 
-display: flex;
-align-items: center;
-text-align: center;
+font-family: 'Roboto', sans-serif ;
 letter-spacing: 0.06em;
 
 color: var(--primary-whyte-color);
@@ -149,38 +147,46 @@ color: var(--primary-whyte-color);
    {background-color: var(--primary-fon-color);}
               /*---SKILLST---*/
 
-   .skills1{
+   .skills-number{
    background-color: var(--primary-fon-color);
    }
-   .text {
-line-height: 1.875;
+   .text-skills {
+font-weight: 700;
+color: var(--primary-gray-color);
+font-size: 14px;
+line-height: 1.87;
 text-transform: uppercase;
  }
 
    .menu-text {
-    font-weight: 400;
     line-height: 1.71;
     color: var(--primary-text-color);
  }
            /*----TECHNOLOGIES----*/
 
 .technologies-numbr{
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-gray-color);
     
    }
    
-   .team1
+   .team-number
    {
     background-color: var(--primary-fon2-color);
    }
                /*---TEAM---*/
 
    .team{
+font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-gray-color);
 
    }
 
@@ -190,6 +196,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-gray-color);
 }
 
 .professio{
@@ -197,6 +205,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
+letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
            /*---FOOTER---*/
@@ -211,18 +220,21 @@ color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--primary-whyte-color);}
     
 .contact-mail{
-    font-style: normal;
+font-style: normal;
 font-weight: 400;
 line-height: 1.71;
+letter-spacing: 0.03em;
 color: var(--primary-bottom-color);
 }
 .contact-phone{
     font-style: normal;
     font-weight: 400;
     line-height: 1.71; 
+    letter-spacing: 0.03em;
     color: var(--primary-bottom-color);
 
 }
