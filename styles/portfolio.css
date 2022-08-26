@@ -19,8 +19,10 @@ img { display: block;}
 button{ cursor: pointer;
     font-family: inherit; 
 }
-
-/*h1,
+address{
+    font-style: normal;
+}
+h1,
 h2,
 h3,
 p{
@@ -32,13 +34,22 @@ ol{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-}*/
+ }
 
 .link {
     text-decoration: none;
 }
 .list { 
-    list-style: none;}
+ list-style: none;}
+
+ .container {
+    width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right:15px;  
+ }
+
 
      /*----Header---*/
 .page1{
@@ -72,7 +83,7 @@ color: var(--accent-color);
 .index.html{
 color: var(--accent-color);
 }
-.menu-link-1{
+.menu-link-number{
     color: var(--accent-color);
 }
 .menu-link{
@@ -167,7 +178,6 @@ letter-spacing: 0.03em;
     color: var(--primary-white-color);
 }
 .location {
-    font-style: normal;
     font-weight: 400;
     line-height: 1.71;
      letter-spacing: 0.03em;
@@ -175,14 +185,12 @@ letter-spacing: 0.03em;
      
 }
 .contact-mail{
-font-style: normal;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-bottom-color);
 }
 .contact-phone{ 
-    font-style: normal;
     font-weight: 400;
     line-height: 1.71; 
     letter-spacing: 0.03em;
