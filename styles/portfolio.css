@@ -51,6 +51,8 @@ ol{
  }
  .page-heder{
     background-color: var(--primary-whyte-color);
+        padding: 20px 24px;
+    border: 1px solid #ECECEC;
 }
 
      /*----Header---*/
@@ -81,6 +83,7 @@ align-items: center;
     display: flex;
     gap: 50px;
     margin-left: 93px;
+    align-items: center;
   
 }
 .infomation {
@@ -99,7 +102,9 @@ color: var(--accent-color);
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--primary-gray-color);
+padding-top: 32px;
+padding-bottom: 32px;
+display: inline-block;
 }
 .contact-mail-numbre,
 .contact-phone-numbre
@@ -143,7 +148,26 @@ color: var(--primary-gray-color);
 
 background: var(--primary-fon2-color);
 border-radius: 4px;
-
+}
+.but-1{
+    width: 73px;
+    height: 38px;
+}
+.but-2{
+    width: 125px;
+    height: 38px;
+}
+.but-3{
+    width: 112px;
+    height: 38px;
+}
+.but-4{
+    width: 103px;
+    height: 38px;
+}
+.but-5{
+    width: 130px;
+    height: 38px;
 }
 .but:hover,
 .but:focus{
@@ -164,7 +188,7 @@ color:var(--primary-white-color);
 
 
 
-.bot{
+.box{
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;

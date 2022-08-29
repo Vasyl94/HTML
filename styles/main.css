@@ -198,15 +198,19 @@ height: 50px;
     display: flex;
     gap: 30px;
     align-items: flex-start;
-    margin-left: 215px;
-    margin-right: 215px;
+   
    }
    .skills{
     display: flex;
    }
+   .text-skills{
+    width: 270px;
+    height: 16px;
+   }
    .menu-text{
     display: flex;
    }
+  
    .text-skills {
 font-weight: 700;
 color: var(--primary-gray-color);
