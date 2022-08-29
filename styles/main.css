@@ -45,7 +45,8 @@ ol{
     text-decoration: none;
 }
 .list { 
-list-style: none;}
+list-style: none;
+}
 .container {
     width: 1600px; 
     margin-left: auto;
@@ -139,9 +140,11 @@ color: var(--primary-text-color);
 }
 
 .decision{
+    padding-bottom: 200px;
+    padding-top: 200px;
   background-color: var(--primary-link-color);  
-  
-}
+  }
+
 .title { 
     font-weight: 900;
     font-size: 44px;
@@ -150,11 +153,10 @@ color: var(--primary-text-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color:var(--primary-whyte-color) ;
-    
-    margin-left: 415px;
-    margin-right: 415px;
-    margin-top: 200px;
-    margin-bottom: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 700px;
    }
 
 
@@ -166,11 +168,14 @@ font-family: 'Roboto', sans-serif ;
 letter-spacing: 0.06em;
 color: var(--primary-whyte-color);
 background: var(--accent-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 color: var(--primary-whyte-color);
 cursor: pointer;
-gap: 30px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 216px;
+height: 50px;
 }
 
    .model-open-btn:hover
@@ -188,10 +193,18 @@ gap: 30px;
    .skills-number{
    background-color: var(--primary-fon-color);
    display: flex;
+   padding-block: 100px;
+   padding-top: 100px;
+   }
+   .text-inf{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-left: 215px;
+    margin-right: 215px;
    }
    .skills{
     display: flex;
-    gap: 30px;
    }
    .menu-text{
     display: flex;
@@ -202,6 +215,7 @@ color: var(--primary-gray-color);
 font-size: 14px;
 line-height: 1.87;
 text-transform: uppercase;
+margin-bottom: 10px;
  }
 
    .menu-text {
@@ -211,6 +225,11 @@ text-transform: uppercase;
 
            /*----TECHNOLOGIES----*/
 
+ .technologies{
+    background-color:var(--primary-fon-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
 .technologies-numbr{
     font-weight: 700;
     font-size: 36px;
@@ -218,26 +237,48 @@ text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-gray-color);
+    margin-bottom: 50px
+     }
+     .foto-page{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
      }
    
-   .team-number
-   {
-    background-color: var(--primary-fon2-color);
-   }
             /*----TECHNOLOGIES----*/
 
                /*---TEAM---*/
 
-   .team{
+  .team-number
+   {
+    background-color: var(--primary-fon2-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+   }
+.system-team{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.team{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-gray-color);
+margin-bottom: 50px;
 }
 
+.foto {
+    height: 368px;
+    width: 270px;
+    background-color: var(--primary-whyte-color);
 
+}
+.people{
+    margin-bottom: 30px;
+}
 .name {
 font-weight: 500;
 font-size: 16px;
@@ -245,6 +286,7 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-gray-color);
+margin-bottom: 10px;
 }
 
 .professio{
@@ -253,7 +295,8 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--primary-text-color);
+color: var(--primary-text-color)
+margin-bottom: 30px;;
 }
             /*---TEAM---*/
 
@@ -272,19 +315,21 @@ color: var(--primary-text-color);
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--primary-whyte-color);}
+    color: var(--primary-whyte-color);
+    margin-left: 215px;}
     
 .contact-mail{
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-bottom-color);
+margin-left: 215px;
 }
 .contact-phone{
     font-weight: 400;
     line-height: 1.71; 
     letter-spacing: 0.03em;
     color: var(--primary-bottom-color);
-
+    margin-left: 215px;
 }
          /*---FOOTER---*/

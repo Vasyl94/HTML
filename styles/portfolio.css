@@ -124,10 +124,8 @@ color:var(--primary-text-color);
 .decision{ background-color: var(--primary-link-color);}
 
 
-.number{
-background-color:var(--primary-fon-color);
-}
-.list{
+
+.table{
     display: flex;
    justify-content: center;
 }
@@ -150,8 +148,17 @@ background-color: var(--accent-color);
 color:var(--primary-white-color);
 }
                  /*---Text----*/
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 .dodatok{
-    background-color:var(--primary-fon-color) ;
+    height: 404px;
+    width: 370px;
+}
+.foto{
+    margin-bottom: 20px;
 }
 
 .spheres{
@@ -160,12 +167,14 @@ font-size: 18px;
 line-height: 2.00;
 letter-spacing: 0.06em;
 color: var(--primary-gray-color);
+margin-bottom: 4px;
 }
 .text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
+margin-bottom: 20px;
 
 
 }
@@ -195,6 +204,7 @@ letter-spacing: 0.03em;
     line-height: 1.71;
      letter-spacing: 0.03em;
     color: var(--primary-white-color);
+    margin-left: 215px;
      
 }
 .contact-mail{
@@ -202,11 +212,13 @@ font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-bottom-color);
+margin-left: 215px;
 }
 .contact-phone{ 
     font-weight: 400;
     line-height: 1.71; 
     letter-spacing: 0.03em;
     color: var(--primary-bottom-color);
+    margin-left: 215px;
 
 }
