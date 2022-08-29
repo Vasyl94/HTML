@@ -48,7 +48,7 @@ ol{
 list-style: none;
 }
 .container {
-    width: 1600px; 
+    width: 1200px; 
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -67,8 +67,7 @@ list-style: none;
     font-size: 26px;
     line-height: 1.19; 
     color: var(--accent-color);
-align-items: center;
-margin-left: 215px;}
+align-items: center;}
  
 
 .logo-header {
@@ -93,7 +92,6 @@ margin-left: 215px;}
     display: flex;
     gap: 50px;
     margin-left: auto;
-    margin-right: 215px;
 }
 
 .index.html{
@@ -302,34 +300,28 @@ margin-bottom: 30px;;
 
            /*---FOOTER---*/
 
-.logo2{ 
-    background-color: #2F303A;}
+.logo-2{ 
+    background-color: var(--primary-link-color);}
 .logo-header-2{
     color: var(--primary-whyte-color);
-}
-.logo-2{
-    margin-left: 215px;
-    margin-right: 1240px;
 }
 .location {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-whyte-color);
-    margin-left: 215px;}
+    }
     
 .contact-mail{
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-bottom-color);
-margin-left: 215px;
 }
 .contact-phone{
     font-weight: 400;
     line-height: 1.71; 
     letter-spacing: 0.03em;
     color: var(--primary-bottom-color);
-    margin-left: 215px;
 }
          /*---FOOTER---*/
