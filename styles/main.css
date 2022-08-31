@@ -141,7 +141,8 @@ color: var(--primary-text-color);
     padding-bottom: 200px;
     padding-top: 200px;
   background-color: var(--primary-link-color);  
-  }
+  margin-block: 94px;
+}
 
 .title { 
     font-weight: 900;
