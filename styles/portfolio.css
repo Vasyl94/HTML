@@ -49,10 +49,12 @@ ol{
     padding-left: 15px;
     padding-right:15px;  
  }
- .page-heder{
+ .page-header{
     background-color: var(--primary-whyte-color);
         padding: 20px 24px;
     border: 1px solid #ECECEC;
+    margin-bottom: 94px;
+
 }
 
      /*----Header---*/
@@ -105,6 +107,7 @@ letter-spacing: 0.02em;
 padding-top: 32px;
 padding-bottom: 32px;
 display: inline-block;
+color: var(--primary-gray-color);
 }
 .contact-mail-numbre,
 .contact-phone-numbre
@@ -132,10 +135,10 @@ color:var(--primary-text-color);
 .table{
     display: flex;
    justify-content: center;
-   padding: 50px;
+   margin-bottom: 50px;
     gap: 8px;
 }
-}
+
 .but{
 font-weight: 500;
 font-size: 1.62;
@@ -149,26 +152,7 @@ color: var(--primary-gray-color);
 background: var(--primary-fon2-color);
 border-radius: 4px;
 }
-.but-1{
-    width: 73px;
-    height: 38px;
-}
-.but-2{
-    width: 125px;
-    height: 38px;
-}
-.but-3{
-    width: 112px;
-    height: 38px;
-}
-.but-4{
-    width: 103px;
-    height: 38px;
-}
-.but-5{
-    width: 130px;
-    height: 38px;
-}
+
 .but:hover,
 .but:focus{
 background-color: var(--accent-color);
@@ -179,7 +163,7 @@ color:var(--primary-white-color);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    
+    margin-bottom: 94px
 }
 .dodatok{
     height: 404px;
@@ -211,13 +195,12 @@ letter-spacing: 0.03em;
 
 }
             /*---FOOTER---*/
-.logo-2{
-    background-color:var(--primary-link-color);
-
-
+.logo-second{
+background-color:var(--primary-link-color);
+margin-bottom: 20px;
 }
 
-.logo-header-2{
+.logo-header-second{
     color: var(--primary-white-color);
 }
 .location {
@@ -225,14 +208,14 @@ letter-spacing: 0.03em;
     line-height: 1.71;
      letter-spacing: 0.03em;
     color: var(--primary-white-color);
-   
-     
+    margin-bottom: 9px;    
 }
 .contact-mail{
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-bottom-color);
+margin-bottom: 9px;
 
 }
 .contact-phone{ 
