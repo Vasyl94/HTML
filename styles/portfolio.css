@@ -153,8 +153,21 @@ background: var(--primary-fon2-color);
 border-radius: 4px;
 height: 38px;
 }
-
-
+.but.a{
+    width: 78px;
+}
+.but.b{
+    width: 125px;
+}
+.but.c{
+    width: 112px;
+}
+.but.d{
+    width: 103px;
+}
+.but.e{
+    width: 130px;
+}
 .but:hover,
 .but:focus{
 background-color: var(--accent-color);
