@@ -207,15 +207,13 @@ padding-bottom: 60px;
     font-weight: 400;
     line-height: 1.71;
      letter-spacing: 0.03em;
-    color: var(--primary-white-color);
-    margin-bottom: 9px;    
+    color: var(--primary-white-color);    
 }
 .contact-mail{
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-bottom-color);
-margin-bottom: 9px;
 
 }
 .contact-phone{ 
@@ -232,3 +230,6 @@ margin-bottom: 9px;
     color: var(--accent-color);
     align-items: center;
     margin-bottom: 20px;}
+    .retreat{
+        margin-bottom: 9px;
+    }

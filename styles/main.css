@@ -189,8 +189,10 @@ border: none;
 
               /*---SKILLST---*/
 
-   .skills-number{
-   background:  #F5F5F5;
+   .skills{
+   background: var(--primary-whyte-color);
+   padding-top: 94px;
+   padding-bottom: 94px;
    }
    .text-inf{
     display: flex;
@@ -203,7 +205,7 @@ border: none;
 }
    .text-skills{
     width: 270px;
-    height: 16px;
+   
    }
    .menu-text{
     display: flex;
@@ -225,8 +227,10 @@ margin-bottom: 10px;
 
            /*----TECHNOLOGIES----*/
 
- .machinery{
-    background:  #F5F5F5;
+ .technologies{
+    background-color: var(--primary-whyte-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
 .technologies-numbr{
     font-weight: 700;
@@ -249,7 +253,8 @@ margin-bottom: 10px;
   .team-number
    {
     background-color: var(--primary-fon2-color);
-    
+    padding-top: 94px;
+    padding-bottom: 94px;
    }
 .system-team{
     display: flex;
@@ -300,7 +305,7 @@ margin-bottom: 30px;
            /*---FOOTER---*/
 
 .logo-second{ 
-    background-color: var(--primary-link-color);
+background-color: var(--primary-link-color);
 padding-top: 60px;
 padding-bottom: 60px;}
 .logo-header-second{
@@ -314,7 +319,6 @@ padding-bottom: 60px;}
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-whyte-color);
-    margin-bottom: 9px;
     }
     
 .contact-mail{
@@ -322,7 +326,6 @@ font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-bottom-color);
-margin-bottom: 9px;
 }
 .contact-phone{
     font-weight: 400;
@@ -338,5 +341,8 @@ margin-bottom: 9px;
     color: var(--accent-color);
     align-items: center;
     margin-bottom: 20px;}
+.retreat{
+    margin-bottom: 9px;
+}
  
          /*---FOOTER---*/
