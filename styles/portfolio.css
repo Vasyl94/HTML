@@ -53,8 +53,6 @@ ol{
     background-color: var(--primary-whyte-color);
         padding: 20px 24px;
     border: 1px solid #ECECEC;
-    margin-bottom: 94px;
-
 }
 
      /*----Header---*/
@@ -196,9 +194,12 @@ letter-spacing: 0.03em;
             /*---FOOTER---*/
 .logo-second{
 background-color:var(--primary-link-color);
-margin-bottom: 20px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
-
+.lower{display: flex;
+    flex-direction: column;
+}
 .logo-header-second{
     color: var(--primary-white-color);
 }
@@ -222,6 +223,12 @@ margin-bottom: 9px;
     line-height: 1.71; 
     letter-spacing: 0.03em;
     color: var(--primary-bottom-color);
-    
-
 }
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    color: var(--accent-color);
+    align-items: center;
+    margin-bottom: 20px;}
