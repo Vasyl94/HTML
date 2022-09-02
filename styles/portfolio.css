@@ -114,7 +114,6 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--primary-text-color);
-
 }
 
 
@@ -128,7 +127,10 @@ color:var(--primary-text-color);
 }
 .decision{ background-color: var(--primary-link-color);}
 
-
+.number{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 
 .table{
     display: flex;
@@ -160,7 +162,6 @@ color:var(--primary-white-color);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 94px
 }
 .dodatok{
     height: 404px;

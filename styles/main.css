@@ -229,7 +229,7 @@ margin-bottom: 10px;
 
  .technologies{
     background-color: var(--primary-whyte-color);
-    padding-top: 94px;
+    padding-top: 0px;
     padding-bottom: 94px;
  }
 .technologies-numbr{
