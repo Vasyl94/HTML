@@ -51,9 +51,8 @@ ol{
  }
  .page-header{
     background-color: var(--primary-whyte-color);
-        padding: 20px 24px;
-    border: 1px solid #ECECEC;
-}
+    padding: 20px 24px;
+    border: 1px solid #ECECEC;}
 
      /*----Header---*/
 
